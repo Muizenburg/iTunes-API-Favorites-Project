@@ -1,0 +1,29 @@
+{
+  "name": "express-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bootstrap": "^4.5.0",
+    "cors": "^2.8.5",
+    "express": "4.16.4",
+    "express-joi-validation": "^4.0.3",
+    "helmet": "^3.22.0",
+    "joi": "^13.1.0",
+    "nodemon": "1.18.10",
+    "react-bootstrap": "^1.0.1",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-http": "4.3.0",
+    "mocha": "7.2.0"
+  }
+}
